@@ -5,14 +5,12 @@ cache:
   yarn: true
   directories:
     - node_modules
-
 script:
   - yarn
   - yarn test
-
 deploy:
   provider: firebase
   token:
-    secure: ''
+    - secure: TAF9Y1nyb0EBxjkLS4TbFFDYjPcMb+4PVKlXZfBLrT2FWWljTMG918hbvqIyhI/IsTratYXuAinMoJfvj8Sb7zJas+SL8Hv2WEvUAfMNEnrtJ1OX+DYL0tfMWzZ4nXVj30elKFXZKvaK+BdSGbmiXLyYcXJOQNUDIQlgJswz4AAB/MYGHRbU7lL+ak80CuVfdCQf9kvtva8myXC2LSFH/I8XB8ZziapeT8rN2Novdc9XmitXobRkjSrvZuAUqsFhl1EnDJF9aBJY+lS7T9qwXvacOJyXM8uHzozB2+WOHYYaUwHRSIGfuvNSK0lo70hnKHLDLa+HDoxaFj8rbeQf7hT9HdWm9iPl2or/LV4aaOFA6IRwO0EY4/5zEpr2gDeWiP6I186f/ZunjxzbRMUQF8ki3OZ/pfLr10GbyNQR+cV42bcsS5+SKsTZYEhCTYp/yQwVmm5S5W8yk1UMi9zwt5dlI1IPfSFXOkpgKxil3yZpED4QJYj/7gtS9wzTi00V5wO1pWWPpoOhcs1bP8E42OV6jRi70bRJSlFoMGLJbqVFhsBlKfrORXsrpQUH+rVqZcqXNWVvnQ6Eme3oWwGLUh1lr5dR9rgoQtUqCf2dtoVGiU8TL6OtbNP6HL2wNEuvpGv62PNd4aFynqAyvHbOyOL+baK+QLc8D1NEHOFEkCg=
   on:
     branch: master
