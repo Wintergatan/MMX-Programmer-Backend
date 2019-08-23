@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier", "json"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-console": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js", "*.spec.js"],
+      "rules": {
+        "no-undef": "off"
+      }
+    }
+  ]
+}
